@@ -1,4 +1,4 @@
-import { MouseEventHandler, ReactNode } from "react";
+import { MouseEventHandler } from "react";
 
 type ButtonProps = {
     /**
@@ -25,7 +25,7 @@ type ButtonProps = {
     type?: "submit" | "reset" | "button";
 
     disabled?: boolean;
-    children?: ReactNode;
+    buttonText?: String;
     fullWidth?: boolean;
 };
 
@@ -33,7 +33,7 @@ const Button = ({
     type = "button",
     onClick,
     disabled = false,
-    children,
+    buttonText,
     fullWidth,
 }: ButtonProps) => {
     return (
@@ -45,7 +45,7 @@ const Button = ({
             onClick={onClick}
             disabled={disabled}
         >
-            {children || "Button"}
+            {buttonText || "Button"}
         </button>
     );
 };
