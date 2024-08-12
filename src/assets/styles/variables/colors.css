@@ -1,0 +1,24 @@
+:root {
+    /* Primary colors */
+    --color-primary-100: #e6f2ff;
+    --color-primary-500: #0000ff;
+    --color-primary-900: #1a4d8c;
+
+    /* Secondary colors */
+    --color-secondary-100: #fff5e6;
+    --color-secondary-500: #f6993f;
+    --color-secondary-900: #8c4a1a;
+
+    /* Neutral colors */
+    --color-neutral-100: #f7fafc;
+    --color-neutral-300: #e2e8f0;
+    --color-neutral-500: #a0aec0;
+    --color-neutral-700: #4a5568;
+    --color-neutral-900: #1a202c;
+
+    /* Semantic colors */
+    --color-success: #38c172;
+    --color-warning: #ffed4a;
+    --color-danger: #e3342f;
+    --color-info: #3182ce;
+}

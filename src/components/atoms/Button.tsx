@@ -20,7 +20,7 @@ type ButtonProps = {
     /**
      * Optional click handler
      */
-    onClick?: () => MouseEventHandler<HTMLButtonElement>;
+    onClick?: () => MouseEventHandler;
 
     type?: "submit" | "reset" | "button";
 
@@ -38,9 +38,7 @@ const Button = ({
 }: ButtonProps) => {
     return (
         <button
-            className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ${
-                fullWidth ? "w-full" : ""
-            }`}
+            className={`bg-[var(--button-bg-primary)] text-[var(--button-text-light)] px-[var(--button-padding-x-md)] py-[var(--button-padding-y-md)] font-[var(--button-font-weight)] rounded-[var(--button-border-radius)]`}
             type={type}
             onClick={onClick}
             disabled={disabled}
