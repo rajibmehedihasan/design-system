@@ -34,11 +34,11 @@ const Button = ({
     onClick,
     disabled = false,
     buttonText,
-    fullWidth,
+    // fullWidth,
 }: ButtonProps) => {
     return (
         <button
-            className={`bg-[var(--button-bg-primary)] text-[var(--button-text-light)] px-[var(--button-padding-x-md)] py-[var(--button-padding-y-md)] font-[var(--button-font-weight)] rounded-[var(--button-border-radius)]`}
+            className={`bg-primary-300 text-white-100`}
             type={type}
             onClick={onClick}
             disabled={disabled}

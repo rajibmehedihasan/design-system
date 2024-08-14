@@ -1,33 +1,22 @@
 :root {
-    /* Button padding */
-    --button-padding-x-sm: 0.5rem;
-    --button-padding-y-sm: 0.25rem;
-    --button-padding-x-md: 1rem;
-    --button-padding-y-md: 0.5rem;
-    --button-padding-x-lg: 1.5rem;
-    --button-padding-y-lg: 0.75rem;
+    /* Button Padding */
+    --button-padding-y: 0.5rem; /* Vertical padding */
+    --button-padding-x: 1rem; /* Horizontal padding */
 
-    /* Button fonts */
-    --button-font-size-sm: var(--font-size-xs);
-    --button-font-size-md: var(--font-size-sm);
-    --button-font-size-lg: var(--font-size-base);
-    --button-font-weight: var(--font-weight-semibold);
+    /* Button Colors */
+    --button-bg-color: var(--color-primary); /* Background color */
+    --button-bg-color-hover: var(
+        --color-primary-dark
+    ); /* Background color on hover */
+    --button-text-color: #ffffff; /* Text color */
+    --button-border-color: var(--color-primary); /* Border color */
+    --button-border-radius: 0.375rem; /* Rounded corners */
 
-    /* Button colors */
-    --button-bg-primary: var(--color-primary-500);
-    --button-bg-secondary: var(--color-secondary-500);
-    --button-text-light: var(--color-neutral-100);
-    --button-text-dark: var(--color-neutral-900);
+    /* Button Font */
+    --button-font-size: var(--font-size-base); /* Font size */
+    --button-font-weight: var(--font-weight-semibold); /* Font weight */
 
-    /* Button border */
-    --button-border-radius: var(--radius-md);
-    --button-border-width: 1px;
-
-    /* Button transitions */
-    --button-transition: background-color 0.2s ease-in-out,
-        color 0.2s ease-in-out, border-color 0.2s ease-in-out,
-        box-shadow 0.2s ease-in-out;
-
-    /* Button hover effect */
-    --button-hover-opacity: 0.9;
+    /* Button Transitions */
+    --button-transition-duration: 0.3s; /* Transition duration */
+    --button-transition-timing: ease-in-out; /* Transition timing function */
 }
