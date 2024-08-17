@@ -1,6 +1,5 @@
 // spacing.js
-module.exports = {
-    0: "var(--spacing-0)",
+const spacingVariables = {
     1: "var(--spacing-1)",
     2: "var(--spacing-2)",
     3: "var(--spacing-3)",
@@ -22,3 +21,5 @@ module.exports = {
     wide: "var(--spacing-wide)", // Wide spacing
     narrow: "var(--spacing-narrow)", // Narrow spacing
 };
+
+export default spacingVariables;

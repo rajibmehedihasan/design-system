@@ -1,11 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 
-const colorVariables = require("./src/assets/styles/tailwind/colors").default;
+import {
+    colorVariables,
+    spacingVariables,
+    borderWidthVariables,
+    borderRadiusVariables,
+} from "./src/assets/styles/tailwind";
 
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
+        fontSize: {
+            base: "15px",
+        },
         extend: {
+            fontFamily: {
+                sans: ["var(--font-family-sans)"],
+                serif: ["var(--font-family-serif)"],
+                mono: ["var(--font-family-mono)"],
+            },
             colors: {
                 ...colorVariables,
             },
@@ -16,7 +29,13 @@ export default {
                 base: "var(--spacing-base)",
             },
             fontSize: {
-                base: "var(--font-size-base)",
+                base: "15px",
+            },
+            borderWidth: {
+                ...borderWidthVariables,
+            },
+            borderRadius: {
+                ...borderRadiusVariables,
             },
         },
     },

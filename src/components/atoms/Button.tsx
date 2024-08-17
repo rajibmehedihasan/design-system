@@ -38,7 +38,7 @@ const Button = ({
 }: ButtonProps) => {
     return (
         <button
-            className={`bg-primary-300 text-white-100`}
+            className={`bg-primary-300 text-white-100 py-2.5 px-5 rounded-m`}
             type={type}
             onClick={onClick}
             disabled={disabled}

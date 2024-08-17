@@ -1,3 +1,7 @@
+html {
+    font-size: 15px;
+}
+
 :root {
     /* Font families */
     --font-family-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -7,14 +11,14 @@
         "Courier New", monospace;
 
     /* Font sizes */
-    --font-size-xs: 0.75rem;
-    --font-size-sm: 0.875rem;
-    --font-size-base: 1rem;
-    --font-size-lg: 1.125rem;
-    --font-size-xl: 1.25rem;
-    --font-size-2xl: 1.5rem;
-    --font-size-3xl: 1.875rem;
-    --font-size-4xl: 2.25rem;
+    --font-size-xs: 0.75rem; /* 11.25px */
+    --font-size-sm: 0.875rem; /* 13.125px */
+    --font-size-base: 1rem; /* 15px */
+    --font-size-lg: 1.125rem; /* 16.875px */
+    --font-size-xl: 1.25rem; /* 18.75px */
+    --font-size-2xl: 1.5rem; /* 22.5px */
+    --font-size-3xl: 1.875rem; /* 28.125px */
+    --font-size-4xl: 2.25rem; /* 33.75px */
 
     /* Line heights */
     --line-height-tight: 1.25;
@@ -29,4 +33,29 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+
+    /* Headings */
+    --h1-font-size: 2.25rem; /* 33.75px */
+    --h1-line-height: 1.2; /* 40.5px */
+    --h1-font-weight: var(--font-weight-bold);
+
+    --h2-font-size: 1.875rem; /* 28.125px */
+    --h2-line-height: 1.25; /* 35.15625px */
+    --h2-font-weight: var(--font-weight-semibold);
+
+    --h3-font-size: 1.5rem; /* 22.5px */
+    --h3-line-height: 1.375; /* 30.9375px */
+    --h3-font-weight: var(--font-weight-medium);
+
+    --h4-font-size: 1.25rem; /* 18.75px */
+    --h4-line-height: 1.5; /* 28.125px */
+    --h4-font-weight: var(--font-weight-medium);
+
+    --h5-font-size: 1rem; /* 15px */
+    --h5-line-height: 1.5; /* 22.5px */
+    --h5-font-weight: var(--font-weight-normal);
+
+    --h6-font-size: 0.875rem; /* 13.125px */
+    --h6-line-height: 1.5; /* 19.6875px */
+    --h6-font-weight: var(--font-weight-normal);
 }
