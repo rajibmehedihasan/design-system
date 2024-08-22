@@ -25,20 +25,28 @@ type ButtonProps = {
     type?: "submit" | "reset" | "button";
 
     disabled?: boolean;
-    buttonText?: String;
+    buttonText?: string;
     fullWidth?: boolean;
+    buttonIcon?: HTMLAllCollection;
+    buttonType?: string;
+    borderRadius?: "S" | "M" | "L";
 };
 
 const Button = ({
+    buttonType,
     type = "button",
     onClick,
     disabled = false,
     buttonText,
-    // fullWidth,
+    buttonIcon,
+    borderRadius,
+    fullWidth,
 }: ButtonProps) => {
     return (
         <button
-            className={`bg-primary-300 text-white-100 py-2.5 px-5 rounded-m`}
+            className={`${buttonType === "outlined" ? "border-primary-300 border-m text-black-100 hover:bg-primary-700 active:bg-primary-600 focus:bg-primary-600 disabled:border-black-500" : "bg-primary-300 text-white-100 hover:bg-primary-400 active:bg-primary-200 focus:bg-primary-200"}${
+                borderRadius === "S" ? " rounded" : " rounded-m"
+            }${fullWidth ? " w-full" : ""} py-2 px-5 font-medium transition-colors disabled:bg-black-600 disabled:text-black-400`}
             type={type}
             onClick={onClick}
             disabled={disabled}

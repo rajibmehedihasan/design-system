@@ -28,9 +28,6 @@ export default {
             spacing: {
                 base: "var(--spacing-base)",
             },
-            fontSize: {
-                base: "15px",
-            },
             borderWidth: {
                 ...borderWidthVariables,
             },
