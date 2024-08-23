@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles using CSS variables */
+@layer base {
+    html {
+        @apply text-html; /* Apply the custom html font size */
+    }
+
+    body {
+        @apply text-body; /* Apply the custom body font size */
+        @apply leading-base;
+    }
+
+    h1 {
+        font-size: var(--font-size-h1);
+        line-height: var(--line-height-h1);
+    }
+
+    h2 {
+        font-size: var(--font-size-h2);
+        line-height: var(--line-height-h2);
+    }
+
+    h3 {
+        font-size: var(--font-size-h3);
+        line-height: var(--line-height-h3);
+    }
+
+    h4 {
+        font-size: var(--font-size-h4);
+        line-height: var(--line-height-h4);
+    }
+
+    h5 {
+        font-size: var(--font-size-h5);
+        line-height: var(--line-height-h5);
+    }
+
+    h6 {
+        font-size: var(--font-size-h6);
+        line-height: var(--line-height-h6);
+    }
+
+    .subtitle {
+        font-size: var(--font-size-subtitle);
+        line-height: var(--line-height-subtitle);
+    }
+
+    .caption {
+        font-size: var(--font-size-caption);
+        line-height: var(--line-height-caption);
+    }
+
+    .base {
+        font-size: var(--font-size-base);
+        line-height: var(--line-height-base);
+    }
+
+    .small-text {
+        font-size: var(--font-size-small-text);
+        line-height: var(--line-height-small-text);
+    }
+
+    .primary-action {
+        font-size: var(--font-size-primary-action);
+        line-height: var(--line-height-primary-action);
+    }
+
+    .link {
+        font-size: var(--font-size-link);
+        line-height: var(--line-height-link);
+    }
+}
