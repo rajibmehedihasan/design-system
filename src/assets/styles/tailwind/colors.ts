@@ -31,6 +31,7 @@ const colorVariables = {
         400: "var(--color-grey-400)",
         500: "var(--color-grey-500)",
         600: "var(--color-grey-600)",
+        700: "var(--color-grey-700)",
     },
     success: {
         100: "var(--color-success-100)",

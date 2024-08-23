@@ -44,7 +44,7 @@ const Button = ({
 }: ButtonProps) => {
     return (
         <button
-            className={`${buttonType === "outlined" ? "border-primary-300 border-m text-black-100 hover:bg-primary-700 active:bg-primary-600 focus:bg-primary-600 disabled:border-black-500" : "bg-primary-300 text-white-100 hover:bg-primary-400 active:bg-primary-200 focus:bg-primary-200"}${
+            className={`${buttonType === "outlined" ? "border-primary-300 border-m text-black-100 hover:bg-primary-700 active:bg-primary-600 focus:bg-primary-600 disabled:border-black-500" : buttonType === "tertiary" ? "bg-grey-500 text-black-100 hover:bg-primary-700  active:bg-primary-600 focus:bg-primary-600" : "bg-primary-300 text-white-100 hover:bg-primary-400 active:bg-primary-200 focus:bg-primary-200"}${
                 borderRadius === "S" ? " rounded" : " rounded-m"
             }${fullWidth ? " w-full" : ""} py-2 px-5 font-medium transition-colors disabled:bg-black-600 disabled:text-black-400`}
             type={type}
