@@ -1,24 +1,71 @@
 :root {
-    /* Primary colors */
-    --color-primary-100: #e6f2ff;
-    --color-primary-500: #0000ff;
-    --color-primary-900: #1a4d8c;
+    /* Primary Colors */
+    --color-primary-100: #00008f;
+    --color-primary-200: #0000cc;
+    --color-primary-300: #0000ff;
+    --color-primary-400: #5252ff;
+    --color-primary-500: #8a8aff;
+    --color-primary-600: #b8b8ff;
+    --color-primary-700: #e5e5ff;
 
-    /* Secondary colors */
-    --color-secondary-100: #fff5e6;
-    --color-secondary-500: #f6993f;
-    --color-secondary-900: #8c4a1a;
+    /* Neutral Colors */
+    --color-white-100: #ffffff;
+    --color-white-200: rgba(255, 255, 255, 0.8);
+    --color-white-300: rgba(255, 255, 255, 0.6);
+    --color-white-400: rgba(255, 255, 255, 0.4);
+    --color-white-500: rgba(255, 255, 255, 0.2);
+    --color-white-600: rgba(255, 255, 255, 0.1);
 
-    /* Neutral colors */
-    --color-neutral-100: #f7fafc;
-    --color-neutral-300: #e2e8f0;
-    --color-neutral-500: #a0aec0;
-    --color-neutral-700: #4a5568;
-    --color-neutral-900: #1a202c;
+    /* Black Shades */
+    --color-black-100: #000000;
+    --color-black-200: rgba(0, 0, 0, 0.8);
+    --color-black-300: rgba(0, 0, 0, 0.6);
+    --color-black-400: rgba(0, 0, 0, 0.4);
+    --color-black-500: rgba(0, 0, 0, 0.2);
+    --color-black-600: rgba(0, 0, 0, 0.1);
 
-    /* Semantic colors */
-    --color-success: #38c172;
-    --color-warning: #ffed4a;
-    --color-danger: #e3342f;
-    --color-info: #3182ce;
+    /* Grey Shades */
+    --color-grey-100: #1a1a1a;
+    --color-grey-200: #4d4d4d;
+    --color-grey-300: #8f8f8f;
+    --color-grey-400: #cccccc;
+    --color-grey-500: #ebebeb;
+    --color-grey-600: #f2f2f2;
+    --color-grey-700: #fafafa;
+
+    /* Semantic Colors - Success */
+    --color-success-100: #083d25;
+    --color-success-200: #277d55;
+    --color-success-300: #22aa6d;
+    --color-success-400: #28cc83;
+    --color-success-500: #43e59d;
+    --color-success-600: #b4fed2;
+    --color-success-700: #e3ffed;
+
+    /* Semantic Colors - Warning */
+    --color-warning-100: #4d3500;
+    --color-warning-200: #855e00;
+    --color-warning-300: #c79300;
+    --color-warning-400: #ffb800;
+    --color-warning-500: #ffc675;
+    --color-warning-600: #ffddb6;
+    --color-warning-700: #fff7ee;
+
+    /* Semantic Colors - Danger */
+    --color-danger-100: #5f1507;
+    --color-danger-200: #991c05;
+    --color-danger-300: #e51c00;
+    --color-danger-400: #fd7068;
+    --color-danger-500: #fea8a5;
+    --color-danger-600: #fee3e2;
+    --color-danger-700: #fff5f5;
+
+    /* Semantic Colors - Info */
+    --color-info-100: #003375;
+    --color-info-200: #004fb8;
+    --color-info-300: #007cff;
+    --color-info-400: #8fa4ff;
+    --color-info-500: #b8c4ff;
+    --color-info-600: #d6ddff;
+    --color-info-700: #f0f3ff;
 }

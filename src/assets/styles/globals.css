@@ -1,9 +1,6 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
 @import "./variables/colors.css";
 @import "./variables/typography.css";
 @import "./variables/spacing.css";
+@import "./variables/border.css";
 
-@import "../../components/atoms/button-variables.css";
+@import "./utilities/base.css";

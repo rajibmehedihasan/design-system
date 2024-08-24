@@ -6,22 +6,32 @@
     --font-family-mono: Menlo, Monaco, Consolas, "Liberation Mono",
         "Courier New", monospace;
 
+    --font-size-html: 16px; /* Base font size for html */
+    --font-size-body: 15px; /* Base font size for body */
+
     /* Font sizes */
-    --font-size-xs: 0.75rem;
-    --font-size-sm: 0.875rem;
-    --font-size-base: 1rem;
-    --font-size-lg: 1.125rem;
-    --font-size-xl: 1.25rem;
-    --font-size-2xl: 1.5rem;
-    --font-size-3xl: 1.875rem;
-    --font-size-4xl: 2.25rem;
+    --font-size-xs: 0.75rem; /* 11.25px */
+    --font-size-sm: 0.875rem; /* 13.125px */
+    --font-size-base: 1rem; /* 15px */
+    --font-size-lg: 1.125rem; /* 16.875px */
+    --font-size-xl: 1.25rem; /* 18.75px */
+    --font-size-2xl: 1.5rem; /* 22.5px */
+    --font-size-3xl: 1.875rem; /* 28.125px */
+    --font-size-4xl: 2.25rem; /* 33.75px */
 
     /* Line heights */
-    --line-height-tight: 1.25;
-    --line-height-snug: 1.375;
-    --line-height-normal: 1.5;
-    --line-height-relaxed: 1.625;
-    --line-height-loose: 2;
+    --line-height-h1: 3rem; /* 48px */
+    --line-height-h2: 2.5rem; /* 40px */
+    --line-height-h3: 2rem; /* 32px */
+    --line-height-h4: 1.75rem; /* 28px */
+    --line-height-h5: 1.625rem; /* 26px */
+    --line-height-h6: 1.5rem; /* 24px */
+    --line-height-subtitle: 1.125rem; /* 18px */
+    --line-height-caption: 1rem; /* 16px */
+    --line-height-base: 1.5rem; /* 24px */
+    --line-height-small-text: 1.125rem; /* 18px */
+    --line-height-primary-action: 1.5rem; /* 24px */
+    --line-height-link: 1.125rem; /* 18px */
 
     /* Font weights */
     --font-weight-light: 300;
@@ -29,4 +39,29 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+
+    /* Headings */
+    --h1-font-size: 2.25rem; /* 33.75px */
+    --h1-line-height: 1.2; /* 40.5px */
+    --h1-font-weight: var(--font-weight-bold);
+
+    --h2-font-size: 1.875rem; /* 28.125px */
+    --h2-line-height: 1.25; /* 35.15625px */
+    --h2-font-weight: var(--font-weight-semibold);
+
+    --h3-font-size: 1.5rem; /* 22.5px */
+    --h3-line-height: 1.375; /* 30.9375px */
+    --h3-font-weight: var(--font-weight-medium);
+
+    --h4-font-size: 1.25rem; /* 18.75px */
+    --h4-line-height: 1.5; /* 28.125px */
+    --h4-font-weight: var(--font-weight-medium);
+
+    --h5-font-size: 1rem; /* 15px */
+    --h5-line-height: 1.5; /* 22.5px */
+    --h5-font-weight: var(--font-weight-normal);
+
+    --h6-font-size: 0.875rem; /* 13.125px */
+    --h6-line-height: 1.5; /* 19.6875px */
+    --h6-font-weight: var(--font-weight-normal);
 }

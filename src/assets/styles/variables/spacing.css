@@ -1,27 +1,18 @@
 :root {
-    /* Spacing scale */
-    --spacing-0: 0;
-    --spacing-1: 0.25rem;
-    --spacing-2: 0.5rem;
-    --spacing-3: 0.75rem;
-    --spacing-4: 1rem;
-    --spacing-6: 1.5rem;
-    --spacing-8: 2rem;
-    --spacing-12: 3rem;
-    --spacing-16: 4rem;
-    --spacing-24: 6rem;
-    --spacing-32: 8rem;
-    --spacing-64: 16rem;
-
-    /* Container widths */
-    --container-sm: 640px;
-    --container-md: 768px;
-    --container-lg: 1024px;
-    --container-xl: 1280px;
-
-    /* Border radius */
-    --radius-sm: 0.125rem;
-    --radius-md: 0.25rem;
-    --radius-lg: 0.5rem;
-    --radius-full: 9999px;
+    --spacing-1: 0.1333rem; /* 2px */
+    --spacing-2: 0.2667rem; /* 4px */
+    --spacing-3: 0.5333rem; /* 8px */
+    --spacing-4: 0.8rem; /* 12px */
+    --spacing-5: 1.0667rem; /* 16px */
+    --spacing-6: 1.3333rem; /* 20px */
+    --spacing-7: 1.6rem; /* 24px */
+    --spacing-8: 1.8667rem; /* 28px */
+    --spacing-9: 2.1333rem; /* 32px */
+    --spacing-10: 2.4rem; /* 36px */
+    --spacing-11: 2.6667rem; /* 40px */
+    --spacing-12: 3.2rem; /* 48px */
+    --spacing-13: 3.7333rem; /* 56px */
+    --spacing-14: 4.2667rem; /* 64px */
+    --spacing-15: 4.8rem; /* 72px */
+    --spacing-16: 5.3333rem; /* 80px */
 }
