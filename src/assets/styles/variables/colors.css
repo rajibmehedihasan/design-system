@@ -15,6 +15,7 @@
     --color-white-400: rgba(255, 255, 255, 0.4);
     --color-white-500: rgba(255, 255, 255, 0.2);
     --color-white-600: rgba(255, 255, 255, 0.1);
+    --color-white-700: rgba(255, 255, 255, 0.05);
 
     /* Black Shades */
     --color-black-100: #000000;
@@ -23,6 +24,7 @@
     --color-black-400: rgba(0, 0, 0, 0.4);
     --color-black-500: rgba(0, 0, 0, 0.2);
     --color-black-600: rgba(0, 0, 0, 0.1);
+    --color-black-700: rgba(0, 0, 0, 0.05);
 
     /* Grey Shades */
     --color-grey-100: #1a1a1a;
@@ -40,7 +42,7 @@
     --color-success-400: #28cc83;
     --color-success-500: #43e59d;
     --color-success-600: #b4fed2;
-    --color-success-700: #e3ffed;
+    --color-success-700: #ddfde9;
 
     /* Semantic Colors - Warning */
     --color-warning-100: #4d3500;
@@ -49,7 +51,7 @@
     --color-warning-400: #ffb800;
     --color-warning-500: #ffc675;
     --color-warning-600: #ffddb6;
-    --color-warning-700: #fff7ee;
+    --color-warning-700: #fff1e0;
 
     /* Semantic Colors - Danger */
     --color-danger-100: #5f1507;
@@ -67,5 +69,5 @@
     --color-info-400: #8fa4ff;
     --color-info-500: #b8c4ff;
     --color-info-600: #d6ddff;
-    --color-info-700: #f0f3ff;
+    --color-info-700: #ebefff;
 }

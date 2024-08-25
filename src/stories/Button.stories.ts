@@ -1,15 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { fn } from "@storybook/test";
 import Button from "../components/atoms/Button";
-
-const borderRadiusClass = {
-    "Rounded 0": "",
-    "Rounded xs": "rounded-xs",
-    "Rounded s": "rounded-s",
-    "Rounded m": "rounded-m",
-    "Rounded l": "rounded-l",
-    "Rounded xl": "rounded-xl",
-};
+import { borderRadiusClass } from "../utils";
 
 const meta: Meta<typeof Button> = {
     title: "atoms/Button",
